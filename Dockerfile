@@ -1,5 +1,5 @@
 FROM python:alpine
 MAINTAINER visglz
 
-RUN pip install mkdocs && pip install mkdocs-windwill
+RUN pip install mkdocs mkdocs-windmill
 
